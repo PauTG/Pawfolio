@@ -173,17 +173,7 @@ span {
   display: block;
 }
 
-span.fb-inner {
-  background: no-repeat url('https://vsxed.github.com/Social-Slides/sprite.png') -41px 0;
-  width: 40px;
-  height: 40px;
-}
 
-span.tw-inner {
-  background: no-repeat url('https://vsxed.github.com/Social-Slides/sprite.png') 0 0;
-  width: 40px;
-  height: 40px;
-}
 
 .social-share {
   width: 72px;
