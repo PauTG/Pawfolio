@@ -280,6 +280,10 @@
     color: white;
     text-decoration: none;
 }
+
+.contacto {
+  text-align: center;
+}
 footer {
     font-size: 15px;
     margin-top: 20px;
