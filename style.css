@@ -73,6 +73,13 @@
 .fotoPerfil{
     height: 200px;
     width: 200px;
+    
+}
+.fotoPerfil:hover{
+  transform: scale(1.2);
+}
+.fotoPerfil{
+  transition: all 0.3s;
 }
 
 .titulosPort{
@@ -80,6 +87,9 @@
     margin-bottom: 20px;
     font-size: 20px;
     margin-top: 30px;
+}
+.titulo {
+  margin: 10px 0;
 }
 
 
@@ -137,15 +147,7 @@
 /* Skills */
 
  
-  titulosPort {
-    max-width: 175px;
-    margin: 0 auto;
-    display: block;
-    padding: 2em;
-    width: 100%;
-    
-
-  }
+  
   span {
     position: absolute;
     top: 7px;
