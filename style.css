@@ -291,7 +291,6 @@ span {
     padding: 12px 20px;
     bottom: 60px;
     right: 20px;
-
   }
 
   .cardsAll {
@@ -313,6 +312,19 @@ span {
   .titulosPort {
     margin-bottom: 20px;
   }
+
+
+  .titulo{
+    font-size: 15px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  h1 {
+    font-size: 30px;
+  }
+
 }
 
 
