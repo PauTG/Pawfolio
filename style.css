@@ -1,266 +1,294 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
 
 
-* { 
-    background-color: #A59AA1;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Source Code Pro', monospace;
+* {
+  background-color: #A59AA1;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .header {
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 85px;
-    padding: 5px 10%;
-    font-size: 20px;
-}
-.header .logo{
-    cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
+  font-size: 20px;
 }
 
-
-.header .logo img{
-    height: 70px;
-    width: auto;
-    transition: all 0.3s;
+.header .logo {
+  cursor: pointer;
 }
- 
 
 
-.header .logo img:hover{
-    transform: scale(1.2);
+.header .logo img {
+  height: 70px;
+  width: auto;
+  transition: all 0.3s;
+}
+
+
+
+.header .logo img:hover {
+  transform: scale(1.2);
 
 }
 
 .header .nav-links {
-    list-style: none;
+  list-style: none;
 }
 
-.header .nav-links li{
-    display: inline-block;
-    padding: 0 20px;
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
 
 }
 
 .header .nav-links a {
-    font-size: 700;
-    text-decoration: none;
+  font-size: 700;
+  text-decoration: none;
 
 }
 
-.header .nav-links li:hover{
-    transform: scale(1.1);
+.header .nav-links li:hover {
+  transform: scale(1.1);
 }
 
-.frentePortafolio{
-    text-align: left;
-    margin-top: 20px;
-    color: white;
-    padding: 20px;
-    font-size: 39px;
-    
+.frentePortafolio {
+  text-align: left;
+  margin-top: 20px;
+  color: white;
+  padding: 20px;
+  font-size: 39px;
+
 }
+
 .sectionPortafolio {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-.fotoPerfil{
-    height: 200px;
-    width: 200px;
-    
+.fotoPerfil {
+  height: 200px;
+  width: 200px;
+
 }
-.fotoPerfil:hover{
+
+.fotoPerfil:hover {
   transform: scale(1.2);
 }
-.fotoPerfil{
+
+.fotoPerfil {
   transition: all 0.3s;
 }
 
-.titulosPort{
-    padding: 2px 30px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    margin-top: 30px;
+.titulosPort {
+  padding: 2px 30px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  margin-top: 30px;
 }
+
 .titulo {
   margin: 10px 0;
 }
 
 
 .cardsAll {
-    padding: 2px 30px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-    gap: 5px;
+  padding: 2px 30px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  gap: 5px;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 300px;
-    height: 300px;
-
-  }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  .container {
-    padding: 2px 16px;
-  }
-
-
-  /* Formulario */
-  .btn-flotante {
-	font-size: 16px; /* Cambiar el tamaño de la tipografia */
-	text-transform: uppercase; /* Texto en mayusculas */
-	font-weight: bold; /* Fuente en negrita o bold */
-	color: #ffffff; /* Color del texto */
-	border-radius: 5px; /* Borde del boton */
-	letter-spacing: 2px; /* Espacio entre letras */
-	background-color: #E91E63; /* Color de fondo */
-	padding: 18px 30px; /* Relleno del boton */
-	position: fixed;
-	bottom: 40px;
-	right: 40px;
-	transition: all 300ms ease 0ms;
-	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-	z-index: 99;
+  box-shadow: 2px 8px 8px 0 rgba(255, 255, 255, 0.2);
+  transition: all 0.3s;
+  width: 300px;
+  height: 300px;
 }
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+
+/* Formulario */
+.btn-flotante {
+  font-size: 16px;
+  /* Cambiar el tamaño de la tipografia */
+  text-transform: uppercase;
+  /* Texto en mayusculas */
+  font-weight: bold;
+  /* Fuente en negrita o bold */
+  color: #ffffff;
+  /* Color del texto */
+  border-radius: 5px;
+  /* Borde del boton */
+  letter-spacing: 2px;
+  /* Espacio entre letras */
+  background-color: #E91E63;
+  /* Color de fondo */
+  padding: 18px 30px;
+  /* Relleno del boton */
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  transition: all 300ms ease 0ms;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+}
+
 .btn-flotante:hover {
-	background-color: #2c2fa5; /* Color de fondo al pasar el cursor */
-	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
-	transform: translateY(-7px);
+  background-color: #2c2fa5;
+  /* Color de fondo al pasar el cursor */
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-7px);
 }
 
 
 /* Skills */
 
- 
-  
-  span {
-    position: absolute;
-    top: 7px;
-    left: 16px;
-    text-align: center;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    display: block;
-  }
-  span.fb-inner {
-    background: no-repeat url('https://vsxed.github.com/Social-Slides/sprite.png') -41px 0;
-    width: 40px;
-    height: 40px;
-  }
-  span.tw-inner {
-    background: no-repeat url('https://vsxed.github.com/Social-Slides/sprite.png') 0 0;
-    width: 40px;
-    height: 40px;
-  }
-  .social-share {
-    width: 72px;
-    height: 54px;
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    border-radius: 6px;
-    margin-top: 20px;
-  }
-  .social-share:first-of-type {
-    margin-right: 10px;
-  }
+span {
+  position: absolute;
+  top: 7px;
+  left: 16px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  display: block;
+}
+
+span.fb-inner {
+  background: no-repeat url('https://vsxed.github.com/Social-Slides/sprite.png') -41px 0;
+  width: 40px;
+  height: 40px;
+}
+
+span.tw-inner {
+  background: no-repeat url('https://vsxed.github.com/Social-Slides/sprite.png') 0 0;
+  width: 40px;
+  height: 40px;
+}
+
+.social-share {
+  width: 72px;
+  height: 54px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.social-share:first-of-type {
+  margin-right: 10px;
+}
+
 .html {
-    background: no-repeat url(Imagenes/html5\ \(1\).svg) ;
-    background-position: center;
-    background-size: 50px;
-  }
-  .css {
-    background: no-repeat url(Imagenes/css3-alt.svg);
-    background-position: center;
-    background-size: 50px;
-  }
-  .js {
-    background: no-repeat url(./Imagenes/square-js.svg);
-    background-position: center;
-    background-size: 60px;
-  }
-  .github {
-    background: no-repeat url(./Imagenes/github\ \(2\).svg);
-    background-position: center;
-    background-size: 50px;
-  }
-  .git {
-    background: no-repeat url(./Imagenes/code-branch-solid.svg);
-    background-position: center;
-    background-size: 40px;
-  }
-  .notion{
-    background: no-repeat url(./Imagenes/book-solid.svg);
-    background-position: center;
-    background-size: 40px;
-  }
-  .trello {
-    background: no-repeat url(./Imagenes/trello.svg);
-    background-position: center;
-    background-size: 40px;
-  }
+  background: no-repeat url(Imagenes/html5\ \(1\).svg);
+  background-position: center;
+  background-size: 50px;
+}
 
+.css {
+  background: no-repeat url(Imagenes/css3-alt.svg);
+  background-position: center;
+  background-size: 50px;
+}
 
+.js {
+  background: no-repeat url(./Imagenes/square-js.svg);
+  background-position: center;
+  background-size: 60px;
+}
 
-  .social-share:hover > span {
-    top: -29px;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-  }
-  .social-share:hover > .cta {
-    bottom: 0;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-  }
-  .cta {
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 6px 0;
-    text-align: center;
-    width: 72px;
-    position: absolute;
-    border-radius: 0 0 6px 6px;
-    bottom: -60px;
-    display: block;
-    box-shadow: inset 0 1px 0 0 #af8b9e, #907e9a, 0 -1px 0 0 rgba(0, 0, 0, 0.3);
-    background-color: #e8e8e8;
-    background-image: -webkit-linear-gradient(top left, #af8b9e, #907e9a);
-    background-image: -moz-linear-gradient(top left, #af8b9e, #907e9a);
-    background-image: -ms-linear-gradient(top left, #af8b9e, #907e9a);
-    background-image: -o-linear-gradient(top left, #af8b9e, #907e9a);
-    background-image: linear-gradient(top left,#af8b9e, #907e9a);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8e8e8', endColorstr='#ffffff', GradientType=0);;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-  }
+.github {
+  background: no-repeat url(./Imagenes/github\ \(2\).svg);
+  background-position: center;
+  background-size: 50px;
+}
+
+.git {
+  background: no-repeat url(./Imagenes/code-branch-solid.svg);
+  background-position: center;
+  background-size: 40px;
+}
+
+.notion {
+  background: no-repeat url(./Imagenes/book-solid.svg);
+  background-position: center;
+  background-size: 40px;
+}
+
+.trello {
+  background: no-repeat url(./Imagenes/trello.svg);
+  background-position: center;
+  background-size: 40px;
+}
+
+.social-share {
+  filter: drop-shadow(1px 3px 2px #ffffff);
+}
+
+.social-share:hover>span {
+  top: -29px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-share:hover>.cta {
+  bottom: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px 0;
+  text-align: center;
+  width: 72px;
+  position: absolute;
+  border-radius: 0 0 6px 6px;
+  bottom: -60px;
+  display: block;
+  box-shadow: inset 0 1px 0 0 #af8b9e, #907e9a, 0 -1px 0 0 rgba(0, 0, 0, 0.3);
+  background-color: #e8e8e8;
+  background-image: -webkit-linear-gradient(top left, #af8b9e, #907e9a);
+  background-image: -moz-linear-gradient(top left, #af8b9e, #907e9a);
+  background-image: -ms-linear-gradient(top left, #af8b9e, #907e9a);
+  background-image: -o-linear-gradient(top left, #af8b9e, #907e9a);
+  background-image: linear-gradient(top left, #af8b9e, #907e9a);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8e8e8', endColorstr='#ffffff', GradientType=0);
+  ;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 
 
 /* Fin skills */
@@ -269,50 +297,54 @@
 
 @media only screen and (min-width: 1px) and (max-width: 767px) {
   .btn-flotante {
-   font-size: 14px;
-   padding: 12px 20px;
-   bottom: 20px;
-   right: 20px;
- }
- .cardsAll{
-   flex-direction: column;
-   display: flex;
-   flex-flow: row wrap;
-   gap: 10px;
-   justify-content: space-around;
-   padding: 20px 20px;
-   
- }
- .cards{
-  margin-top: 20px;
-  justify-content: space-around;
-  display: block;
- }
- .titulosPort{
-  margin-bottom: 20px;
- }
+    font-size: 14px;
+    padding: 12px 20px;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .cardsAll {
+    flex-direction: column;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 20px 20px;
+
+  }
+
+  .cards {
+    margin-top: 20px;
+    justify-content: space-around;
+    display: block;
+  }
+
+  .titulosPort {
+    margin-bottom: 20px;
+  }
 }
 
 
-.logoGit{
-    height: 150px;
-    width: 150px;
-    font-size: 30px;
-    color: white;
-    text-decoration: none;
+.logoGit {
+  height: 150px;
+  width: 150px;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
 }
 
-.argentinaDeveloper{
-    color: white;
-    text-decoration: none;
+.argentinaDeveloper {
+  color: white;
+  text-decoration: none;
 }
 
 .contacto {
   text-align: center;
 }
+
 footer {
-    font-size: 15px;
-    margin-top: 20px;
-    text-align: center;
-    padding: 20px;
+  font-size: 15px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
 }
