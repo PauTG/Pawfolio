@@ -132,15 +132,15 @@
   /* Texto en mayusculas */
   font-weight: bold;
   /* Fuente en negrita o bold */
-  color: #ffffff;
+  color: #0e76a8;
   /* Color del texto */
   border-radius: 5px;
   /* Borde del boton */
   letter-spacing: 2px;
   /* Espacio entre letras */
-  background-color: #0e76a8;
+  background-color: white;
   /* Color de fondo */
-  padding: 18px 30px;
+  padding: 7px 7px;
   /* Relleno del boton */
   position: fixed;
   bottom: 40px;
@@ -290,7 +290,7 @@ span {
 @media only screen and (min-width: 1px) and (max-width: 860px) {
   .btn-flotante {
     font-size: 10px;
-    padding: 12px 20px;
+    padding: 7px 7px;
     bottom: 60px;
     right: 20px;
   }
@@ -301,8 +301,7 @@ span {
     flex-flow: row wrap;
     gap: 10px;
     justify-content: space-around;
-    padding: 20px 20px;
-    
+    padding: 10px;
 
   }
 
@@ -310,12 +309,16 @@ span {
     margin-top: 20px;
     justify-content: space-around;
     display: block;
+
   }
 
   .titulosPort {
     margin-bottom: 20px;
+    
   }
-
+.social {
+  text-align: center;
+}
 
   .titulo{
     font-size: 15px;
@@ -337,6 +340,11 @@ span {
   font-size: 30px;
   color: white;
   text-decoration: none;
+}
+
+.linkedin {
+  font-size: 30px;
+  background-color: white;
 }
 
 .argentinaDeveloper {
