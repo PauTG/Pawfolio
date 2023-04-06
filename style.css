@@ -138,7 +138,7 @@
   /* Borde del boton */
   letter-spacing: 2px;
   /* Espacio entre letras */
-  background-color: #E91E63;
+  background-color: #0e76a8;
   /* Color de fondo */
   padding: 18px 30px;
   /* Relleno del boton */
@@ -151,7 +151,7 @@
 }
 
 .btn-flotante:hover {
-  background-color: #2c2fa5;
+  background-color:  #0b2a39;
   /* Color de fondo al pasar el cursor */
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-7px);
@@ -285,7 +285,7 @@ span {
 
 
 
-@media only screen and (min-width: 1px) and (max-width: 767px) {
+@media only screen and (min-width: 1px) and (max-width: 860px) {
   .btn-flotante {
     font-size: 10px;
     padding: 12px 20px;
@@ -300,6 +300,7 @@ span {
     gap: 10px;
     justify-content: space-around;
     padding: 20px 20px;
+    
 
   }
 
