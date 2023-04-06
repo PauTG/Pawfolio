@@ -124,7 +124,7 @@
 }
 
 
-/* Formulario */
+/* Linkedin */
 .btn-flotante {
   font-size: 16px;
   /* Cambiar el tamaño de la tipografia */
@@ -151,7 +151,7 @@
 }
 
 .btn-flotante:hover {
-  background-color:  #0b2a39;
+  background-color:  white;
   /* Color de fondo al pasar el cursor */
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-7px);
@@ -287,7 +287,7 @@ span {
 
 
 
-@media only screen and (min-width: 1px) and (max-width: 860px) {
+@media only screen and (min-width: 1px) and (max-width: 971px) {
   .btn-flotante {
     font-size: 10px;
     padding: 7px 7px;
