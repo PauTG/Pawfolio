@@ -177,7 +177,7 @@ span {
 
 .social-share {
   width: 190px;
-  height: 54px;
+  height: 100px;
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -233,6 +233,7 @@ span {
 
 .social-share {
   filter: drop-shadow(1px 3px 2px #ffffff);
+  position: relative;
 }
 
 .social-share:hover>span {
@@ -256,6 +257,7 @@ span {
 .cta {
   text-decoration: none;
   font-size: 14px;
+  left: 59px;
   font-weight: bold;
   padding: 6px 0;
   text-align: center;
