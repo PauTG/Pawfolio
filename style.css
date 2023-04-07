@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
 
-
+/* Aplica everywhere del CSS */
 * {
   background-color: #A59AA1;
   box-sizing: border-box;
@@ -9,8 +9,8 @@
   font-family: 'Source Code Pro', monospace;
 }
 
+/* Header */
 .header {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,18 +23,14 @@
   cursor: pointer;
 }
 
-
 .header .logo img {
   height: 70px;
   width: auto;
   transition: all 0.3s;
 }
 
-
-
 .header .logo img:hover {
   transform: scale(1.2);
-
 }
 
 .header .nav-links {
@@ -50,20 +46,21 @@
 .header .nav-links a {
   font-size: 700;
   text-decoration: none;
-
 }
 
 .header .nav-links li:hover {
   transform: scale(1.1);
 }
 
+/* Fin header */
+
+/* principio Body */
 .frentePortafolio {
   text-align: left;
   margin-top: 20px;
   color: white;
   padding: 20px;
   font-size: 39px;
-
 }
 
 .sectionPortafolio {
@@ -75,7 +72,6 @@
 .fotoPerfil {
   height: 200px;
   width: 200px;
-
 }
 
 .fotoPerfil:hover {
@@ -96,7 +92,6 @@
 .titulo {
   margin: 10px 0;
 }
-
 
 .cardsAll {
   padding: 2px 30px;
@@ -123,7 +118,7 @@
   padding: 2px 16px;
 }
 
-
+/* Fin principio del body*/
 /* Linkedin */
 .btn-flotante {
   font-size: 16px;
@@ -151,12 +146,11 @@
 }
 
 .btn-flotante:hover {
-  background-color:  white;
+  background-color: white;
   /* Color de fondo al pasar el cursor */
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-7px);
 }
-
 
 /* Skills */
 
@@ -172,8 +166,6 @@ span {
   transition: all 0.3s ease-in-out;
   display: block;
 }
-
-
 
 .social-share {
   width: 190px;
@@ -282,10 +274,9 @@ span {
   transition: all 0.3s ease-in-out;
 }
 
-
 /* Fin skills */
 
-
+/* media */
 
 @media only screen and (min-width: 1px) and (max-width: 971px) {
   .btn-flotante {
@@ -314,25 +305,29 @@ span {
 
   .titulosPort {
     margin-bottom: 20px;
-    
-  }
-.social {
-  text-align: center;
-}
 
-  .titulo{
+  }
+
+  .social {
+    text-align: center;
+  }
+
+  .titulo {
     font-size: 15px;
   }
 
   body {
     overflow-x: hidden;
   }
+
   h1 {
     font-size: 30px;
   }
-
 }
 
+/* Fin media */
+
+/* Footer */
 
 .logoGit {
   height: 150px;
@@ -362,3 +357,5 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+/* Fin footer */
