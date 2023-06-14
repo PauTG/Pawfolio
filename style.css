@@ -232,6 +232,21 @@ body {
   padding: 2px 16px;
 }
 
+.titleCards{
+  text-align: center;
+}
+
+.descripCards{
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+.detallesCards{
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
 /* Fin principio del body*/
 /* Linkedin */
 .btn-flotante {
