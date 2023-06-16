@@ -230,6 +230,8 @@ body {
 
 .container {
   padding: 2px 16px;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .titleCards{
@@ -239,13 +241,11 @@ body {
 .descripCards{
   font-size: 16px;
   font-style: italic;
-  text-align: center;
 }
 
 .detallesCards{
   font-size: 12px;
-  text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 /* Fin principio del body*/
 /* Linkedin */
