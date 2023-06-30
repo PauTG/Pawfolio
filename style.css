@@ -246,6 +246,12 @@ body {
 .detallesCards{
   font-size: 12px;
   margin-top: 15px;
+  align-items: center;
+}
+
+.imgD{
+  margin: 20px 2px;
+  padding: 5px;
 }
 /* Fin principio del body*/
 /* Linkedin */
