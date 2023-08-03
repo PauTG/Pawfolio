@@ -249,6 +249,13 @@ body {
   align-items: center;
 }
 
+.imgC {
+  width: 300px;
+  height: 120px;
+  overflow: hidden;
+  padding: 30px;
+}
+
 .imgS{
   width: 300px;
   height: 120px;
