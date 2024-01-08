@@ -203,9 +203,6 @@ body .heart-switch {
   font-size: 25px;
 }
 
-.logoCV{
-  color: white;
-}
 body {
   background-color: #A59AA1;
 }
@@ -538,6 +535,10 @@ span {
   font-size: 30px;
   color: white;
   text-decoration: none;
+}
+
+.logoCV{
+  color: white;
 }
 
 .logoCV{
