@@ -537,6 +537,15 @@ span {
   text-decoration: none;
 }
 
+.logoCV{
+  height: 150px;
+  width: 150px;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
 .linkedin {
   font-size: 30px;
   background-color: white;
