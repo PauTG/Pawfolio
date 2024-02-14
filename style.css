@@ -392,6 +392,13 @@ span {
   background-size: 40px;
 }
 
+.react {
+  background: no-repeat url(./Imagenes/react.svg);
+  background-position: center;
+  background-size: 40px;
+}
+
+
 .linkedin {
   font-size: 30px;
   background-color: white;
