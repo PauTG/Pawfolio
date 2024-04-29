@@ -181,7 +181,7 @@ body .heart-switch {
 
 .fotoPerfil:hover {
   transform: scale(1.2);
-  filter: drop-shadow(1px 1px 30px #ffffff3a);
+  filter: drop-shadow(1px 1px 3px #ffffff);
 }
 
 .fotoPerfil {
