@@ -181,6 +181,7 @@ body .heart-switch {
 
 .fotoPerfil:hover {
   transform: scale(1.2);
+  filter: drop-shadow(1px 1px 50px #7b4f71);
 }
 
 .fotoPerfil {
@@ -189,6 +190,7 @@ body .heart-switch {
 
 .textoSobreMi{
   font-size: 22px;
+  text-align: justify;
 }
 
 .titulosPort {
@@ -209,19 +211,22 @@ body {
 
 .cardsAll {
   padding: 2px 30px;
-  margin: 20px 2px;
+  margin: 15px 9px;
   font-size: 20px;
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
-  gap: 5px;
+  gap: 15px;
+  align-items: center;
 }
 
 .card {
   box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.2);
   transition: all 0.3s;
-  width: 300px;
+  width: 320px;
   height: 300px;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .card:hover {
@@ -233,10 +238,9 @@ body {
   height: 120px;
   padding: 2px 16px;
   text-align: center;
-  margin-top: 29px;
+  justify-content: space-around;
+  margin-top: 25px;
   justify-content: center;
-  margin-top: 35px;
-  
 }
 
 .titleCards{
@@ -255,35 +259,28 @@ body {
 }
 
 .imgS{
-  width: 300px;
-  height: 120px;
+  width: 100%;
+  height: auto;
   align-items: center;
   justify-content: center;
 
 }
 
 .imgC {
-  width: 300px;
-  height: 120px;
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
-}
-
-img{
-  align-items: center;
   width: 100%;
-  justify-content: center;
   height: 120px;
+  margin: 3px;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .containerC{
   width: 300px;
-  height: 120px;
+  height: 100px;
   padding: 2px 16px;
   text-align: center;
-  margin-top: 20px;
-  justify-content: center;
+  margin-top: 10px;
+  justify-content: space-around;
 }
 /* Fin principio del body*/
 /* Linkedin */
@@ -467,11 +464,18 @@ span {
     right: 20px;
   }
 
+  .frentePortafolio{
+    text-align: center;
+  }
+
+  .textoSobreMi{
+    text-align: justify;
+  }
   .cardsAll {
     flex-direction: column;
     display: flex;
     flex-flow: row wrap;
-    gap: 10px;
+    gap: 25px;
     justify-content: space-around;
     padding: 10px;
     align-items: center;
@@ -506,12 +510,13 @@ span {
   .containerC{
     margin-top: 0;
   }
-
-
-
   .cardsAll{
     overflow: hidden;
+    width: 100%;
+    height: auto;
+    align-items: center;
   }
+
   .imgS{
     padding: 0px;
     align-items: center;
