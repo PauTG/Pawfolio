@@ -181,7 +181,7 @@ body .heart-switch {
 
 .fotoPerfil:hover {
   transform: scale(1.2);
-  filter: drop-shadow(1px 1px 50px #7b4f71);
+  filter: drop-shadow(1px 1px 30px #ffffff3a);
 }
 
 .fotoPerfil {
@@ -211,7 +211,7 @@ body {
 
 .cardsAll {
   padding: 2px 30px;
-  margin: 15px 9px;
+  margin: 20px 10px;
   font-size: 20px;
   display: flex;
   justify-content: space-around;
@@ -221,7 +221,7 @@ body {
 }
 
 .card {
-  box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 8px 40px 5px rgba(0, 0, 0, 0.092);
   transition: all 0.3s;
   width: 320px;
   height: 300px;
@@ -230,7 +230,7 @@ body {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgb(255, 242, 251);
+  box-shadow: 4px 8px 80px 20px rgba(255, 255, 255, 0.821);
 }
 
 .container {
