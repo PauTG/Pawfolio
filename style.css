@@ -221,7 +221,7 @@ body {
 }
 
 .card {
-  box-shadow: 4px 8px 40px 5px rgba(0, 0, 0, 0.092);
+  box-shadow: 4px 8px 25px  rgba(0, 0, 0, 0.092);
   transition: all 0.3s;
   width: 320px;
   height: 300px;
