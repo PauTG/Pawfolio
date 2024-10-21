@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
 
+
 /* Aplica everywhere del CSS */
 
 * {
@@ -201,7 +202,6 @@ body .heart-switch {
 }
 
 .titulo {
-  margin: 10px 0;
   font-size: 25px;
 }
 
