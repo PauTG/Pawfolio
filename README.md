@@ -1,6 +1,5 @@
-<h1> Hola! 🐝 </h1>
-
-<h2> Soy Paula y te invito a visualizar mi portafolio 📄 </h2>  
+<h1> Hola! 🐝 </br>
+Soy Paula y te invito a visualizar mi portafolio 📄</h1> 
 
 <h3> En el mismo vas a visualizar que desde finales del año 2021 me enfoqué en aprender desarrollo web y me encuentro en un constante camino de aprendizaje en este campo.
 
